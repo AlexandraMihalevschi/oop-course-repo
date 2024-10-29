@@ -21,7 +21,8 @@ class TextData(private val fileName: String, private val text: String) {
         return """
 __________________
 Filename: $fileName
-Text: $text 
+Text: 
+$text 
 Number of Vowels: $numberOfVowels
 Number of Consonants: $numberOfConsonants
 Number of Letters: $numberOfLetters
