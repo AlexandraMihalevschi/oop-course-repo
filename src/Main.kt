@@ -3,9 +3,9 @@ import java.io.FileReader
 fun main(args: Array<String>) {
 
     // Instantiate three Display objects
-    val display1 = Display(1920, 1080, 401f, "Display A")
-    val display2 = Display(2560, 1440, 326f, "Display B")
-    val display3 = Display(3840, 2160, 531f, "Display C")
+    val display1 = Display(3840, 2160, 400f, "Display A") // Best
+    val display2 = Display(2560, 1440, 250f, "Display B")
+    val display3 = Display(1920, 1080, 150f, "Display C") // Worst
 
     // Compare displays
     display1.compareSharpness(display2)
@@ -13,6 +13,19 @@ fun main(args: Array<String>) {
     display1.compareSize(display3)
     println()
     display2.compareWithMonitor(display3)
+
+    // Create an Assistant and assign displays
+    val assistant = Assistant("Beyonce")
+    println("__________________")
+    assistant.assignDisplay(display1)
+    assistant.assignDisplay(display2)
+    assistant.assignDisplay(display3)
+
+    // Assistant assists with comparisons
+    assistant.assist()
+
+    // Example: Buy a display
+    assistant.buyDisplay()
 
     if (args.isEmpty()) {
         println("Please provide the file path as a command-line argument.")

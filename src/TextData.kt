@@ -19,15 +19,15 @@ class TextData(private val fileName: String, private val text: String) {
 
     override fun toString(): String {
         return """
-
+__________________
 Filename: $fileName
 Text: $text 
-
-            Number of Vowels: $numberOfVowels
-            Number of Consonants: $numberOfConsonants
-            Number of Letters: $numberOfLetters
-            Number of Sentences: $numberOfSentences
-            Longest Word: $longestWord
+Number of Vowels: $numberOfVowels
+Number of Consonants: $numberOfConsonants
+Number of Letters: $numberOfLetters
+Number of Sentences: $numberOfSentences
+Longest Word: $longestWord
+__________________
         """.trimIndent()
     }
 }

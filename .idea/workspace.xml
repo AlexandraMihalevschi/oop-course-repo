@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ce03b3f-56a1-4c57-a9dd-f01f49fd94aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sources/file1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileReader.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TextData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/file2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assistant.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Display.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Display.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TextData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextData.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
     <configuration name="MainKt" type="JetRunConfigurationType" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="Lab1" />
-      <option name="PROGRAM_PARAMETERS" value="C:\Users\Lenovo\Laboratory_POO\oop_coure_repo\Lab1\sources\file1.txt" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\Lenovo\Laboratory_POO\oop_coure_repo\Lab1\sources\file2.txt" />
       <shortenClasspath name="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,7 +85,8 @@
       <updated>1730105356922</updated>
       <workItem from="1730105357851" duration="3122000" />
       <workItem from="1730108548687" duration="7016000" />
-      <workItem from="1730152690181" duration="595000" />
+      <workItem from="1730152690181" duration="780000" />
+      <workItem from="1730184804337" duration="6970000" />
     </task>
     <servers />
   </component>
