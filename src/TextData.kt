@@ -28,7 +28,6 @@ Number of Consonants: $numberOfConsonants
 Number of Letters: $numberOfLetters
 Number of Sentences: $numberOfSentences
 Longest Word: $longestWord
-__________________
         """.trimIndent()
     }
 }

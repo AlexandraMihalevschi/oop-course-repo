@@ -20,7 +20,6 @@ class Assistant(private val assistantName: String) {
             val nextDisplay = assignedDisplays[i + 1]
 
             println("🔹 Comparison ${i + 1}: ${currentDisplay.getModel()} vs ${nextDisplay.getModel()}")
-            println("--------------------------------------------------")
             currentDisplay.compareWithMonitor(nextDisplay)
             println("--------------------------------------------------\n")
         }
